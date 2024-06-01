@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#label {
+    margin: 2rem auto;
+    border: 0.2rem solid black;
+    width: 16rem;
+    height: 30rem;
+}
