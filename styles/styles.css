@@ -2,11 +2,80 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: black;
 }
 
 #label {
     margin: 2rem auto;
+    padding: 0.5rem;
     border: 0.2rem solid black;
-    width: 16rem;
-    height: 30rem;
+    width: 20rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight:900;
+}
+
+.small {
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+.regular {
+    font-weight: 500;
+}
+.strong {
+    font-weight: 800;
+}
+
+.big {
+    font-size: 1.2rem;
+}
+
+.big:first-of-type {
+    margin-bottom: 0.5rem;
+}
+
+.huge {
+    font-size: 2rem;
+}
+
+.right {
+    position: absolute;
+    right: 0.5rem;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.indented {
+    margin-left: 1rem;
+}
+
+.double-indented, .short {
+    margin-left: 2rem;
+}
+
+hr {
+    border: none;
+    background-color: black;
+    margin: 0.3rem 0;
+}
+
+.thin {
+    height: 0.1rem;
+}
+
+.medium {
+    height: 0.5rem;
+}
+
+.thick {
+    height: 1rem;
 }
